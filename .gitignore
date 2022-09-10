@@ -1,0 +1,26 @@
+# vscode
+.vscode
+
+# hardhat
+artifacts
+cache
+deployments
+node_modules
+coverage
+coverage.json
+typechain
+
+# don't push the environment vars!
+.env
+
+# Log Files
+*.log
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+# lint/reports/
+
+gas-report.txt
