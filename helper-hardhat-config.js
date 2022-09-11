@@ -31,8 +31,13 @@ const networkConfig = {
 };
 
 const developmentChains = ["hardhat", "localhost"];
+const frontEndContractsFile =
+    "../fcc-fbsc-js-lesson10-nextjs-smartcontract-lottery/constants/contractAddresses.json";
+const frontEndAbiFile = "../fcc-fbsc-js-lesson10-nextjs-smartcontract-lottery/constants/abi.json";
 
 module.exports = {
     networkConfig,
     developmentChains,
+    frontEndContractsFile,
+    frontEndAbiFile,
 };
